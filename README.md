@@ -21,5 +21,5 @@ Dentro de **Clases** estarán los archivos escritos o usados en cada sesión.
 
 ## Tareas
 
-* [Transformar el archivo m2-lesson1.ino en una clase](./Tareas/Modificación_de_m2-lesson1.ino_a_una_clase/)
+* [Tarea4](./Tareas/Tarea4/)
 
