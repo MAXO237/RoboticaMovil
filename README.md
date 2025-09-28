@@ -1,9 +1,9 @@
 # RoboticaMovil
 Este es el repositorio del curso de Robotica Móvil
 
-Divido este repositorio en las Clases que hemos tenido y las Tareas que se tienen que entregar. Dentro de Clases habrá los archivos escritos y utilizados en cada clase.
+Está dividido en las [Clases](#Clases) que hemos tenido y las [Tareas](#Tareas) que se tienen que entregar. Dentro de Clases estarán los archivos escritos o usados en cada clase.
 
-##Clases
+## Clases
   Semana 6
     - Martes 16-09-2025  ->  Fue puente
     - [Jueves 18-09-2025](./Clases/Semana6/Jueves_18-09-2025/)  ->  Acabamos de construir a Paquito y le cargamos un programa para que se moviera
@@ -13,5 +13,5 @@ Divido este repositorio en las Clases que hemos tenido y las Tareas que se tiene
     - Jueves 25-09-2025  ->  Fue paro
     - Viernes 26-09-2025  ->  Se vio una simulación hecha por Edgar en Isaac Sim, sólo como ejemplo
 
-##Tareas
+## Tareas
     - [Transformar el archivo m2-lesson1.ino en una clase](./Tareas/Modificación_de_m2-lesson1.ino_a_una_clase/)
