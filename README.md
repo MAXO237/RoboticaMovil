@@ -10,7 +10,7 @@ Dentro de **Clases** estarán los archivos escritos o usados en cada sesión.
 * **Semana 6**
 
   * Martes 16-09-2025 → Fue puente
-  * [Jueves 18-09-2025](./Clases/Semana6/Jueves_18-09-2025/) → Acabamos de construir a *Paquito* y le cargamos un programa para que se moviera
+  * [Jueves 18-09-2025](./Clases/Semana6/Jueves_18-09-2025/) → Acabamos de construir a *Paquito* y le cargamos un programa "m2_lesson1.ino" para que se moviera
   * Viernes 19-09-2025 → Acabamos de ver los tutoriales planeados de ROS2
 
 * **Semana 7**
