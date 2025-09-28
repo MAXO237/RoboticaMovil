@@ -237,12 +237,28 @@ void loop()
       case 'R': right_turn(TURN_SPEED); break;
       case 'B': go_back(SPEED); break;
       case 'E': stop_Stop(); break;
-      case 'F': left_shift(0, 150, 0, 150); break; //left ahead
+     
+      //  Diagonal-izquiera-adelante
+      //  "Se mueven las llantas trasera izquierda y delantera derecha hacia adelante"
+      case 'F': left_shift(0, 150, 0, 150); break; //left ahead. 
+      
+      //  Diagonal-derecha-adelante
+      //  "Se mueven las llantas trasera derecha y delantera izquierda hacia adelante"
       case 'H': right_shift(180, 0, 150, 0); break; //right ahead
+
+      //  Diagonal-izquierda-atrás
+      //  "Se mueven las llantas trasera derecha y delantera izquierda hacia atrás"
       case 'I': left_shift(150, 0, 150, 0); break; //left back
+
+      //  Diagonal-derecha-atrás
+      //  "Se mueven las llamtas trasera izquiera y delantera derecha hacia atrás"
       case 'K': right_shift(0, 130, 0, 130); break; //right back
+
+      //  Izquierda-Viendo hacia adelante
       case 'O': left_shift(200, 150, 150, 200); break; //left shift
-      case 'T': right_shift(200, 200, 200, 200); break; //left shift
+
+      //  Derecha-Viendo hacia adelante
+      case 'T': right_shift(200, 200, 200, 200); break; //right shift
       default: break;
     }
   }

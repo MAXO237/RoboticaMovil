@@ -133,43 +133,49 @@ class App:
 
     def stop_button_command(self):
         print("Stop")
+        self.send_message('E')
 
 
     def left_button_command(self):
         print("Moving left")
-
+        self.send_message('O')
 
     def right_button_command(self):
         print("Moving right")
-
+        self.send_message('T')
 
     def forward_button_command(self):
         print("Moving forward")
+        self.send_message('A')
 
 
     def backward_button_command(self):
         print("Moving backward")
+        self.send_message('B')
 
 
     def d_left_up_button_command(self):
         print("Diagonal left upwards")
+        self.send_message('F')
 
 
     def d_right_up_button_command(self):
         print("Diagonal right upwards")
-
+        self.send_message('H')
 
     def d_right_down_button_command(self):
         print("Diagonal right downwards")
+        self.send_message('K')
 
 
     def d_left_down_button_command(self):
         print("Diagonal left downwards")
+        self.send_message('I')
 
 
     def l_turn_button_command(self):
         print("Left turn")
-
+        self.send_message('L')
 
     def r_turn_button_command(self):
         print("Right turn")
