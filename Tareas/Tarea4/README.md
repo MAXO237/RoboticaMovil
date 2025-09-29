@@ -1,5 +1,11 @@
-El archivo **m2-lesson5a.ino** se carga en *Paquito* para controlarlo vía **WiFi**.
+# Tarea 4
 
-El archivo **control_interface.py** se ejecuta para abrir una interfaz gráfica y controlar a *Paquito* vía **WiFi**, aunque no está completo (sólo funciona un botón).
+## Integrantes:
+- Alarcón Rodríguez Luis Guillermo
+- Torres Nava Hazel 
+- Victoria Morales Ricardo Maximiliano
 
-Debemos completar el código de **control_interface.py** y de **m2-lesson5a.ino**. También reducir el código de **m2-lesson5a.ino** con una clase.
+El archivo [**Tarea.ino**](./Tarea4/Tarea4.ino) se carga en *Paquito* para controlarlo vía **WiFi**. Éste está dividido en clases de C++.
+
+El archivo [**control_interface.py**](./control_interface.py) se ejecuta para abrir una interfaz gráfica y controlar a *Paquito* vía **WiFi**. Antes de ejecutarlo, se debe de conectar a la red wifi "Equipo Dinamita".
+
