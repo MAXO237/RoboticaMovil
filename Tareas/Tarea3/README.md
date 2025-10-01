@@ -5,5 +5,5 @@
 - Torres Nava Hazel 
 - Victoria Morales Ricardo Maximiliano
 
-El código para visualizar las distancias del sensor en rviz.
+El código para visualizar las distancias del sensor con cubitos en rviz. 
 
