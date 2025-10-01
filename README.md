@@ -22,4 +22,5 @@ Dentro de **Clases** estarán los archivos escritos o usados en cada sesión.
 ## Tareas
 
 * [Tarea4](./Tareas/Tarea4/)
+* [Tarea3](./Tareas/Tarea3/)
 
