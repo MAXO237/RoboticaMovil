@@ -6,4 +6,5 @@
 - Victoria Morales Ricardo Maximiliano
 
 El código para visualizar las distancias del sensor con cubitos en rviz. 
+El espacio de trabajo de ROS es la carpeta tarea 3. 
 
