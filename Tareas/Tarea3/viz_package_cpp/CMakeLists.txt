@@ -11,7 +11,17 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(rclcpp REQUIRED)
+find_package(visualization_msgs REQUIRED)
+
+## Nuevo
+find_package(std_msgs REQUIRED)
+
+
 add_executable(viz_node src/viz_node.cpp)
+
+ament_target_dependencies(viz_node rclcpp visualization_msgs std_msgs)
+
 target_include_directories(viz_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
@@ -19,6 +29,28 @@ target_compile_features(viz_node PUBLIC c_std_99 cxx_std_17)  # Require C99 and 
 
 install(TARGETS viz_node
   DESTINATION lib/${PROJECT_NAME})
+
+# Install
+#install(DIRECTORY
+#  launch  # Launch files
+#  DESTINATION share/${PROJECT_NAME}
+#)
+
+## Nuevo
+install(PROGRAMS
+  scripts/sensor_sim.py
+  scripts/sensor_real.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install
+install(DIRECTORY
+  launch  # Launch files
+  urdf    # Robot models
+  rviz
+  DESTINATION share/${PROJECT_NAME}
+) 
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
