@@ -20,11 +20,11 @@ En esta tarea se encuentra el código del sensor de Arduino que capta distancias
 - En una terminal 2 ubicarse en el espacio de trabajo y activar el overlay con `source install/setup.bash`.
 ### Lanzamiento de nodos
 Se programaron dos formas de lanzar los nodos; la primera es utilizando el Arduino conectado a la computadora, la segunda es haciendo una simulación de lo que el sensor podría enviar a la computadora.
-- Para lanzar los nodos con un Arduino conectado a la computadora, hacer:
+- Para lanzar los nodos con un Arduino conectado a la computadora, hacer en terminal 2:
 ```bash
 ros2 launch viz_package_cpp viz_launch.py use_sim:=false
 ```
-- Para lanzar los nodos sin un Arduino, hacer:
+- Para lanzar los nodos sin un Arduino, hacer en terminal 2:
 ```bash
 ros2 launch viz_package_cpp viz_launch.py use_sim:=true
 ```
