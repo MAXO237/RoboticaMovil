@@ -30,5 +30,5 @@ ros2 launch viz_package_cpp viz_launch.py use_sim:=true
 ```
 ## Ejemplo
 <p align="center">
-  <img src="imagenes/demo.gif" width="400">
+  <img src="Vídeo-sin-título-‐-Hecho-con-Clipchamp.gif" width="400">
 </p>
